@@ -69,7 +69,7 @@ body {
 }
 
 .tb-1:hover ~ button::after {
-  animation: shake 0.5s ease-in-out 0.3s;
+  animation: goyang 0.5s ease-in-out 0.3s;
   text-shadow: -2px -2px #18181888;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .tb-3:hover ~ button::after {
-  animation: shake 0.5s ease-in-out 0.3s;
+  animation: goyang 0.5s ease-in-out 0.3s;
   text-shadow: 2px -2px #18181888;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .tb-4:hover ~ button::after {
-  animation: shake 0.5s ease-in-out 0.3s;
+  animation: goyang 0.5s ease-in-out 0.3s;
   text-shadow: -2px 2px #18181888;
 }
 
@@ -99,7 +99,7 @@ body {
 }
 
 .tb-6:hover ~ button::after {
-  animation: shake 0.5s ease-in-out 0.3s;
+  animation: goyang 0.5s ease-in-out 0.3s;
   text-shadow: 2px 2px #18181888;
 }
 
@@ -161,7 +161,7 @@ button::after {
   z-index: 2;
 }
 
-@keyframes shake {
+@keyframes goyang {
   0% {
     left: 45%;
   }
